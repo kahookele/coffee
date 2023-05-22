@@ -120,6 +120,12 @@ body {
   justify-items: center;
 }
 
+.places-container {
+  height: 30rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
 .places {
   width: 90%;
   margin: 1.3rem;
@@ -205,5 +211,5 @@ body {
 }
 
 .cup:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
